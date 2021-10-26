@@ -1,0 +1,12 @@
+body {
+	background-color: #11161E;
+	font-family: SF Pro Display;
+}
+._container {
+	max-width: 1111px;
+	padding: 0px 15px;
+	margin: 0 auto;
+}
+body._lock {
+	overflow: hidden;
+}

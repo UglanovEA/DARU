@@ -23,9 +23,6 @@ header,
 section {
 	display: block;
 }
-html {
-	font-size: SF Pro Display;
-}
 html,
 body {
 	height: 100%;
@@ -33,8 +30,6 @@ body {
 }
 body {
 	line-height: 1;
-	background-color: #11161E;
-	font-family: SF Pro Display;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -42,7 +37,7 @@ body {
 input,
 button,
 textarea {
-	font-family: SF Pro Display;
+	font-family: inherit;
 	font-size: inherit;
 }
 input::-ms-clear {
