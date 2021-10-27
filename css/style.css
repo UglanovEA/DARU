@@ -314,20 +314,14 @@
 .opportunities *:last-child {
 	margin-bottom: 0px;
 }
-.opportunities__container {
-}
 .opportunities__wpapper {
 	max-width: 592px;
 }
 .opportunities__title {
-}
-.title {
 	margin-bottom: 22px;
 }
 .opportunities__text {
 	margin-bottom: 66px;
-}
-.text {
 }
 .opportunities__icons img {
 	padding: 10px 0px;
@@ -344,3 +338,50 @@
 	margin-right: 0px;
 }
 /* ================================================== */
+.convenience {
+	background-color: #181f29;
+	padding-top: 113px;
+}
+.convenience__container {
+	display:flex;
+}
+.convenience__content {
+	margin-right: 45px;
+}
+.convenience__title {
+	margin-bottom: 22px;
+}
+.convenience__text {
+	margin-bottom: 60px;
+}
+.text {
+}
+.convenience__btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #212a38;
+	color: #6a7c95;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: center;
+	border-radius: 10px;
+	transition: all 0.3s ease 0s;
+	padding: 8px 62px;
+}
+.convenience__btn:hover {
+	background-color: #6a7c95;
+	color: #212a38;
+}
+.btn {
+}
+.convenience__img {
+	
+}
+.convenience__img img {
+	margin-right: 38px;
+}
+.convenience__img img:last-child {
+	margin-right: 0px;
+}
