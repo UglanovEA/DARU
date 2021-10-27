@@ -236,12 +236,12 @@
 	text-decoration: underline;
 }
 /* ================================================== */
-.section__advantages {
+.advantages {
 	background-color: #181f29;
 	padding: 162px 0px;
 }
 @media (max-width: 768px) {
-	.section__advantages {
+	.advantages {
 		text-align: center;
 		padding: 62px 0px;
 	}
@@ -300,5 +300,47 @@
 }
 .cards__text {
 	font-size: 18px;
+}
+/* ================================================== */
+.opportunities {
+	padding: 140px 0px;
+}
+@media (max-width: 768px) {
+	.opportunities {
+		text-align: center;
+		padding: 62px 0px;
+	}
+}
+.opportunities *:last-child {
+	margin-bottom: 0px;
+}
+.opportunities__container {
+}
+.opportunities__wpapper {
+	max-width: 592px;
+}
+.opportunities__title {
+}
+.title {
+	margin-bottom: 22px;
+}
+.opportunities__text {
+	margin-bottom: 66px;
+}
+.text {
+}
+.opportunities__icons img {
+	padding: 10px 0px;
+	margin-right: 27px;
+}
+@media (max-width: 428px) {
+	.object {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	}
+}
+.opportunities__icons img:last-child {
+	margin-right: 0px;
 }
 /* ================================================== */
