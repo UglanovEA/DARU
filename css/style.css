@@ -379,8 +379,6 @@
 		margin-bottom: 30px;
 	}
 }
-.text {
-}
 .convenience__btn {
 	display: inline-flex;
 	align-items: center;
@@ -398,8 +396,6 @@
 .convenience__btn:hover {
 	background-color: #6a7c95;
 	color: #212a38;
-}
-.btn {
 }
 .convenience__img {
 	display: flex;
@@ -439,3 +435,103 @@
 		height: auto;
 	}
 }
+/* ================================================== */
+.rates {
+	padding: 143px 0px 169px;
+}
+@media (max-width: 1046px) {
+	.rates {
+		padding: 62px 0px;
+	}
+}
+.rates__container *:last-child {
+	margin-bottom: 0px;
+}
+.rates__content {
+	margin-bottom: 48px;
+}
+@media (max-width: 1046px) {
+	.rates__content {
+		text-align: center;
+	}
+}
+.rates__title {
+	margin-bottom: 22px;
+}
+.rates__prices {
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+@media (max-width: 692px) {
+	.rates__prices {
+		justify-content: center;
+	}
+}
+.prices__item {
+	background-color: #273140;
+	border-radius: 15px;
+	padding: 53px 26px 47px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+@media (max-width: 650px){
+	.prices__item {
+	margin-right: 0px;
+	}
+}
+.prices__header {
+	text-align: center;
+	margin-bottom: 23px;
+}
+.prices__title {
+	color: #ffffff;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+.prices__subtitle{
+	color: #717e92;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 17px;
+}
+.prices__list {
+	list-style:disc;
+	list-style-position: inside;
+	margin-bottom: 30px;
+}
+.price__item {
+	color: #717E92;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 26px;
+}
+.price__item--darkgrey{
+	color: #3b485a;
+}
+.prices__btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #6a7395;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: center;
+	border-radius: 10px;
+	transition: all 0.3s ease 0s;
+	padding: 8px 84px;
+}
+.prices__btn:hover {
+	background-color: #d1d1d1;
+	color: #6b6a6a;
+}
+.prices__btn--green {
+	background-color: #6A9590;
+}
+.prices__btn--yellow {
+	background-color: #95936a;
+}
+/* ================================================== */
