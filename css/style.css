@@ -48,6 +48,7 @@
 		flex: 0 1 auto;
 		align-items: center;
 		justify-content: space-between;
+		list-style-type: none;
 	}
 	.menu__list > li {
 		margin-right: 57px;
